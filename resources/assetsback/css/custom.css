@@ -1,0 +1,21 @@
+.card-body .set-table {
+    overflow: hidden; 
+    padding-bottom: 10px;
+}
+.wrapper .side-set{
+	overflow: hidden; 
+}
+
+/*request page*/
+.email-input-div{display: none;}
+.btn-div{display: flex;justify-content: center;}
+.btn-div a, .btn-div a:hover{    color: #51cbce;
+    font-weight: 600;}
+    .delete-source,.delete-source:hover{display: flex;
+    align-items: center;
+    font-size: 22px;text-decoration: none;}
+textarea.p-10{padding: 10px;}
+/*request list*/
+.fa-star {
+  color: orange;
+}

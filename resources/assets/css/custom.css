@@ -1,0 +1,57 @@
+.error{
+	color:red;
+}
+.centerize{
+	text-align: center;
+}
+.success-msg{
+	
+	background-color: green;
+}
+.rate {
+    float: left;
+    height: 46px;
+}
+.rate:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+}
+.rate:not(:checked) > label {
+    float:right;
+    width:1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:30px;
+    color:#ccc;
+}
+.rate:not(:checked) > label:before {
+    content: '★ ';
+}
+.rate > input:checked ~ label {
+    color: #ffc700;    
+}
+.rate:not(:checked) > label:hover,
+.rate:not(:checked) > label:hover ~ label {
+    /*color: #deb217;*/ 
+    color: #ffc700; 
+}
+.rate > input:checked + label:hover,
+.rate > input:checked + label:hover ~ label,
+.rate > input:checked ~ label:hover,
+.rate > input:checked ~ label:hover ~ label,
+.rate > label:hover ~ input:checked ~ label {
+    /*color: #c59b08;*/
+    color: #ffc700;
+}
+.segment_header{background-image: url('../img/Textures05.jpg');color:#008080;width:auto;text-align:Left;
+background-repeat:repeat;background-color:transparent;background-size: cover;background-position: 50% 50%;}
+.segment_header h1{font-size:30px;padding:20px 1em ;background-color:rgba(255, 255, 255, 0.82)}
+.review-wrapper .card-body{padding: 30px;}
+.review-wrapper label{color: #36454E;
+    font-family: 'Roboto',sans-serif;
+    font-size: 14px;
+    font-weight: bold;}
+.custom-review-div:focus-within{background: #F4F8FB !important;}
+.review-send-btn{display: flex;justify-content: center;}   
+.rating-div label{margin-bottom: 0;}
